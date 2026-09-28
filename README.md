@@ -6,8 +6,8 @@
 
 *Designing production-ready hardware and mission-critical firmware — from multi-layer schematics to cloud ingestion.*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kadirmercan)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://mercan.studio)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kadir-mercan-/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://kadirmercan00.github.io/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kadirmercan00)
 
 </div>
@@ -62,12 +62,11 @@ I design and build **end-to-end mission-critical IoT, hardware, and autonomous s
 
 | Showcase Project | Architecture & Key Highlights | Technology Stack |
 |:---|:---|:---|
-| **[`smart-agriculture-lora-gateway`](https://github.com/kadirmercan00/smart-agriculture-lora-gateway)** | Precision agriculture infrastructure. Features a custom **Altium 2-layer PCB** uniting an ESP32 with an EBYTE E70 (30 dBm / 1W) LoRa modem, step-down buck power rail, and 41-byte packed binary telemetry to cloud MQTT. | Altium • ESP32 • EBYTE E70 LoRa • MQTT • SNTP |
-| **[`wearable-iot-smart-badge`](https://github.com/kadirmercan00/wearable-iot-smart-badge)** | Industrial safety badge. Implements deterministic **Man-Down / Free-Fall kinematics** via ST LIS2DH12 IMU, BLE beacon micro-location tracking, interactive 1.8" SPI TFT work order dispatcher, and AWS IoT Core mTLS integration. | Custom PCB • ESP32 • LIS2DH12 IMU • SPI TFT • AWS IoT |
-| **[`stm32-industrial-eval-board`](https://github.com/kadirmercan00/stm32-industrial-eval-board)** | Rugged mixed-signal evaluation board based on **STM32F103RDT6 (72 MHz)**. Incorporates isolated RS-485 fieldbus, operational amplifier analog front-end (AFE) for 12-bit ADC conditioning, DAC waveform generation, and LCD. | Altium • STM32F103 • RS-485 • Op-Amp AFE • C++ |
-| **[`swarm-uav-formation-nav`](https://github.com/kadirmercan00/swarm-uav-formation-nav)** | Autonomous multi-drone swarm formation navigation. Implements **Artificial Potential Field (APF)** collision avoidance, 10 Hz MAVLink NED velocity vectoring, ESP32 PainlessMesh ad-hoc inter-UAV telemetry, and OpenCV ArUco optical guidance. | Python • DroneKit • MAVLink • OpenCV • PyQt5 |
-| **[`esp32-ble-mqtt-gateway`](https://github.com/kadirmercan00/esp32-ble-mqtt-gateway)** | Deterministic 10-state FSM edge gateway. Features **hardware RF coexistence** (time-division multiplexed BLE/Wi-Fi), IEEE 802.3 CRC-32 validation, and non-volatile pulse persistence (NVS) across node brownouts. | ESP32 • NimBLE • PubSubClient • NVS • PlatformIO |
-| **[`industrial-env-monitor`](https://github.com/kadirmercan00/industrial-env-monitor)** | High-reliability occupational health station. Directly interfaces Sensirion SHT35 via **raw I2C (`0x2400`)**, ScioSense CCS811 MOX gas analysis, discrete moving average CO filtering, acoustic noise windowing, and MicroSD CSV datalogging. | ESP32 • SHT35 I2C • CCS811 • MicroSD SPI • NTP |
+| **[`edge-to-cloud-iot-operations`](https://github.com/kadirmercan00/edge-to-cloud-iot-operations)** | **Flagship System:** Full-stack hardware-to-cloud infrastructure. Custom wearable badge PCB (Altium), FreeRTOS C++17 firmware with hardware mTLS, AWS IoT Core & Lambda normalizer, DynamoDB, predictive maintenance ML, and real-time operations dashboard. | Custom PCB • C++17 • AWS IoT • DynamoDB • Python ML |
+| **[`smart-agriculture-lora-gateway`](https://github.com/kadirmercan00/smart-agriculture-lora-gateway)** | Precision agriculture infrastructure. Features a custom **Altium 2-layer PCB** uniting an ESP32 with an EBYTE E70 (30 dBm / 1W) LoRa modem, step-down buck power rail, live web operations portal, and 41-byte binary telemetry logging. | Altium • ESP32 • EBYTE E70 LoRa • MQTT • Web UI |
+| **[`stm32-industrial-eval-board`](https://github.com/kadirmercan00/stm32-industrial-eval-board)** | Rugged mixed-signal evaluation board based on **STM32F103RDT6 (72 MHz)**. Incorporates isolated RS-485 Modbus RTU Slave, operational amplifier analog front-end (AFE) for 12-bit ADC conditioning, DAC waveform generation, and Python field diagnostic tool. | Altium • STM32F103 • RS-485 Modbus • Op-Amp AFE • Python |
+| **[`swarm-uav-formation-nav`](https://github.com/kadirmercan00/swarm-uav-formation-nav)** | Autonomous multi-drone swarm formation navigation. Implements **Artificial Potential Field (APF)** collision avoidance, 10 Hz MAVLink NED velocity vectoring, ESP32 PainlessMesh ad-hoc inter-UAV telemetry, OpenCV ArUco tracking, and live offline simulator. | Python • DroneKit • MAVLink • OpenCV • APF Simulator |
+| **[`nrf52-esp32-ble-iot-network`](https://github.com/kadirmercan00/nrf52-esp32-ble-iot-network)** | Hybrid industrial WSN combining ultra-low-power **Nordic nRF52840 nodes (<15 µA)** broadcasting 16-byte packed CRC-32 frames with an **Espressif ESP32 10-state deterministic gateway** featuring RF TDM coexistence and MQTT cloud delivery. | Nordic nRF52 • ESP32 • BLE 5.0 • RF Coexistence • MQTT |
 
 ---
 
